@@ -1,0 +1,27 @@
+{
+  "name": "composer/hide-attachments",
+  "description": "Hide attachments assigned to a specific product category term from the media gallery.",
+  "authors": [
+    {
+      "name": "Carmine Colicino",
+      "email": "carminecolicino@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "HideAttachments\\": "includes/classes/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=7.0",
+    "10up/wp_mock": "dev-master",
+    "10up/phpcs-composer": "dev-master"
+  },
+  "scripts": {
+    "lint": "phpcs .",
+    "lint-fix": "phpcbf ."
+  }
+}

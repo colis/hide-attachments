@@ -1,0 +1,23 @@
+{
+  "name": "hide-attachments",
+  "version": "1.0.0",
+  "description": "Hide attachments assigned to a specific product category term from the media gallery.",
+  "author": {
+    "name": "Carmine Colicino",
+    "email": "carminecolicino@gmail.com",
+    "url": "https://github.com/colis",
+    "role": "developer"
+  },
+  "scripts": {
+    "test": "phpunit",
+    "start": "composer install",
+    "bundle": "composer install --no-dev -o",
+    "lint-php": "composer run lint"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "engineStrict": true,
+  "engines": {
+    "node": ">=8.11"
+  }
+}
