@@ -88,5 +88,5 @@ function activate() {
  * @return void
  */
 function deactivate() {
-	delete_option( 'hide-attachments-product-categories' );
+
 }

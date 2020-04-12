@@ -43,7 +43,7 @@ class Settings extends Plugin implements Registrable {
 	 * Register the fields necessary to set the Hide Attachments settings.
 	 */
 	public function hide_attachments_settings() {
-		$section_name = 'hide-attachments-product-categories-section';
+		$section_name = 'hide-attachments-product-category-section';
 
 		register_setting( self::SETTINGS_NAME, self::OPTION_NAME );
 
