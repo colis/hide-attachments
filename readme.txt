@@ -8,7 +8,7 @@ Stable tag:        0.1.0
 A brief description of the plugin.
 
 == Description ==
-Hide attachments assigned to a specific product category term from
+Hide attachments assigned to a specific category term from
 the media gallery.
 
 
@@ -21,7 +21,7 @@ the media gallery.
 
 == Settings ==
 
-1. Select the Product Category Terms from the 'Settings -> Media' menu. The attachments assigned to the selected product category terms will not be visible in the Media Library.
+1. Select the Category Terms from the 'Settings -> Media' menu. The attachments assigned to the selected category terms will not be visible in the Media Library.
 
 == Changelog ==
 

@@ -1,5 +1,5 @@
 /* Editor Styles */
-.hide-attachments-product-category td {
+.hide-attachments-by-category td {
 	display: grid;
 	grid-template-columns: repeat(3, max-content);
 	grid-column-gap: 24px;

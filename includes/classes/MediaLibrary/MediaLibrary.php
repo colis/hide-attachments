@@ -78,17 +78,17 @@ class MediaLibrary extends Plugin implements Registrable {
 	private function get_posts_by_category() : array {
 		$option_value = get_option( self::OPTION_NAME );
 
-		$product_category_terms = array_keys( ( ! empty( $option_value ) ) ? $option_value : [] );
+		$category_terms = array_keys( ( ! empty( $option_value ) ) ? $option_value : [] );
 
 		$query = new WP_Query(
 			[
 				'post_status'            => 'publish',
-				'post_type'              => 'product',
+				'post_type'              => 'post',
 				'posts_per_page'         => -1,
 				'tax_query'              => [
 					[
-						'taxonomy' => 'product_cat',
-						'terms'    => $product_category_terms,
+						'taxonomy' => 'category',
+						'terms'    => $category_terms,
 					],
 				],
 				'no_found_rows'          => true,

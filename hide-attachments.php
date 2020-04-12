@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Hide Attachments
  * Plugin URI:  https://github.com/colis/hide-attachments
- * Description: Hide attachments assigned to a specific product category term from the media gallery.
+ * Description: Hide attachments assigned to a specific category term from the media gallery.
  * Version:     0.1.0
  * Author:      Carmine Colicino
  * Author URI:  https://github.com/colis

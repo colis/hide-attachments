@@ -27,7 +27,7 @@ abstract class Plugin {
 	 *
 	 * @var string
 	 */
-	const OPTION_NAME = 'hide-attachments-product-category';
+	const OPTION_NAME = 'hide-attachments-by-category';
 
 	/**
 	 * Stores the plugin main class.

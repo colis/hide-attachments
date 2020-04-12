@@ -1,7 +1,7 @@
 {
   "name": "hide-attachments",
   "version": "1.0.0",
-  "description": "Hide attachments assigned to a specific product category term from the media gallery.",
+  "description": "Hide attachments assigned to a specific category term from the media gallery.",
   "author": {
     "name": "Carmine Colicino",
     "email": "carminecolicino@gmail.com",

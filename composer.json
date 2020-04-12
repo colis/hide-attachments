@@ -1,6 +1,6 @@
 {
   "name": "composer/hide-attachments",
-  "description": "Hide attachments assigned to a specific product category term from the media gallery.",
+  "description": "Hide attachments assigned to a specific category term from the media gallery.",
   "authors": [
     {
       "name": "Carmine Colicino",

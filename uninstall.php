@@ -4,4 +4,4 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 	die;
 }
 
-delete_option( 'hide-attachments-product-category' );
+delete_option( 'hide-attachments-by-category' );
