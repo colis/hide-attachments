@@ -1,0 +1,9 @@
+/* Editor Styles */
+.hide-attachments-product-categories td {
+	display: grid;
+	grid-template-columns: repeat(3, max-content);
+	grid-column-gap: 24px;
+	grid-row-gap: 8px;
+	margin: 0;
+	padding: 20px 10px 20px 0;
+}
